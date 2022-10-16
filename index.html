@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Как настроение?</h1>
+
+  <div class="buttons">
+    <button class="button buttonSad" onclick="buttonClickSad()">Плохое</button>
+    <button class="button buttonVerySad" onclick="buttonClickVerySad()">Очень плохое</button>
+  </div>
+
+  <div class="videoContainer">
+    <video
+      id="planeVideo"
+      src="./plane.mp4"
+      loop="true"
+      autoplay="false"
+      playsInline="true"
+      muted
+      ></video>
+      <video
+      id="wineVideo"
+      src="./wine.mp4"
+      loop="true"
+      autoplay="false"
+      playsInline="true"
+      muted
+    ></video>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
